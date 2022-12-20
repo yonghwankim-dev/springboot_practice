@@ -1,4 +1,4 @@
-package kr.yh;
+package kr.yh.member;
 
 import lombok.*;
 
