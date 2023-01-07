@@ -34,6 +34,5 @@ public class MySqlRunner implements ApplicationRunner {
         }
 
         jdbcTemplate.execute("INSERT INTO USERS VALUES(1, 'yonghwan')");
-
     }
 }

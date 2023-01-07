@@ -21,6 +21,13 @@ spring:
     database-platform: org.hibernate.dialect.H2Dialect
     show-sql: true
 
+    hibernate:
+      ddl-auto: create
+
+    properties:
+      hibernate:
+        format_sql: true
+
   sql:
     init:
       data-locations: "classpath*:/data.sql"
@@ -33,13 +40,7 @@ spring:
       settings.trace: false
       settings.web-allow-others: false
 
-jpa:
-  hibernate:
-    ddl-auto: create
 
-  properties:
-    hibernate:
-      format_sql: true
 
 logging:
   level:

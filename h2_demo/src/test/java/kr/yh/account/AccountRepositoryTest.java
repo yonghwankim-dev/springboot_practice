@@ -66,5 +66,4 @@ public class AccountRepositoryTest {
         assertThat(foundAccount).isNotEmpty();
         assertThat(foundAccount.get()).isEqualTo(account);
     }
-
 }
